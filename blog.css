@@ -1,0 +1,129 @@
+/****background section****/
+* { margin: 0;
+    padding: 0; }
+html {
+  background: white;
+}
+a:focus, a:hover {
+	font-style: italic; }
+
+/****header style****/
+header {
+  padding: 1em 5em;
+  border-bottom: 2px solid white;
+}
+.header--text--before {
+  background-image: linear-gradient(to top, #E8EAF6, #E1BEE7, #5C6BC0, #002633);
+  opacity: .8;
+}
+header h2 {
+  font-family: 'Sniglet', cursive;
+  font-size: 250%;
+  color: white;
+  text-shadow: 2px 3px 1px #002633;
+  text-align: center;
+}
+header p {
+  text-align: center;
+  padding: 2em;
+  font-size: 300%;
+  color: #263238;
+  text-shadow: 2px 2px 1px white;
+  font-family: 'Sniglet', cursive;
+}
+.text-center {
+  text-align: center; }
+
+header h3 {
+  font-size: 100%;
+  text-align: center;
+  padding: 12em 0 5em 0;
+  color: #424242;
+  font-family: 'Dosis', sans-serif;
+}
+
+/* the styles for the navigation menu */
+.nav_menu {
+	list-style-type: none;
+	text-align: center;
+	padding: 15px;
+}
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+li {
+    display: inline;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 5px;
+    text-decoration: none;
+    float: center;
+}
+li a {
+  display: inline;
+  text-decoration: none;
+  padding: 14px 16px;
+  color: white;
+}
+
+li a:hover:not(.current) {
+  background-color: #B4E8F9;
+}
+.current {
+  background-color: #51d0fb
+    ;
+}
+
+/**** body ****/
+
+body {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 100%;
+  width: auto;
+  background-color: white;
+}
+.h2blog {
+  margin-top: 3em;
+  margin-bottom: .5em;
+  text-align: center;
+}
+p {
+  text-align: center;
+  padding-bottom: 5em;
+}
+
+/****block styles****/
+.block1 {
+  background: #FF6F00;
+  color: white;
+  padding: 2.5em;
+  margin-bottom: 1.25em;
+  text-align: center;
+}
+.h2block {
+  margin-bottom: 1em;
+}
+.pblock {
+  margin-bottom: 30px;
+  display: block;
+}
+.abutton {
+  background: none;
+  color: #FFCDD2;
+  border: 1px solid #FFCDD2;
+  box-shadow: none;
+  padding: .5em 1em;
+}
+.abutton:hover {
+  background: #FFCDD2 none repeat scroll 0 0;
+  color: #FF4081;
+}
+
+/**** styles for the footer ****/
+footer {
+  clear: both;
+  border-top: 2px solid #808080;
+  padding: .6em;
+  padding-left: 400px;
+}
